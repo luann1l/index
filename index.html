@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de produtos simples</title>
+    <link rel="stylesheet" href="./css/Styles.css">
+</head>
+<body>
+    <main>
+        <!-- seção do produto -->
+        <section class="produto">
+            <!-- div onde vai ficar as imagens dos produtos -->
+        <div class="imagens-produtos">
+            <!-- imagem principal do produto -->
+        <img src="./img/bolsa-double-flap-caviar-preta-507dd238c5665c831f1d6101e7330d5ddc16ede0.webp" alt="produto principal" class="imagem-principal" id="imagem-principal">
+        <!-- miniatura das imagens -->
+        <div class="miniatura">
+            <img src="./img/bolsa-double-flap-caviar-preta-8ab8b75f5b79fded9024db46e3b210f66ae36a3f.webp" alt="miniatura 1" class="miniatura" data-imagem="./img/blusa4.jpg">
+            <img src="./img/bolsa-double-flap-caviar-preta-ab06505f3dabcbfd87f733b6c1ca7806aaeebabd.webp" alt="miniatura 2" class="miniatura" data-imagem="./img/blusademanga.jpg">
+            <img src="./img/bolsa-double-flap-caviar-preta-025f69ef0cae6fc4a52f8770432b88bbfd369732.webp" alt="miniatura 3" class="miniatura" data-imagem="./img/blusademanga2.jpg">
+        </div>
+</div>
+<!-- div tem os detalhes dos produtos -->
+<div class="detalhes-produto">
+    <!-- nome do produto -->
+    <h2>Chaneel Bolsa</h2>
+    <!-- descrição do produto -->
+    <p class="descricao">Bolsa Double Flap Caviar Preta by Chanel é confeccionada em couro caviar na cor preta, possui ferragens douradas e fecho no tradicional duplo “CC” da marca. Alça transpassada e ajustável em corrente trançada com couro e um bolso interno. É perfeita para qualquer look do dia ou da noite, tenha esse clássico no seu closet! Alugue bolsas Chanel originais no ClosetBoBags. Estado da bolsa: Muito bom, apresenta desgastes nas extremidades, sinais de uso no couro, forro com riscos, atrito e manchas esbranquiçadas e ferragens oxidadas. Categoria: Utilitária. Material: Couro. Marca: Chanel. Dimensões (L x A x P): 25 x 16 x 6 cm. Valor do caução: R$600,00.
+
+        tags: utilitaria , chanel , aluguel de bolsas , bolsa chanel original , chanel caviar , chanel classica , classic flap , bolsa chanel caviar , double flap chanel , bolsa double flap , chanel caviar comprar , bolsa chanel caviar preco , feminino</p>
+    <!-- preço -->
+    <p class="preco">R$ 109,90</p>
+    <!-- formulario para cor e tamanho pods produtos -->
+    <form class="opcoes-compra">
+        <!-- seleção do tamanho -->
+        <label for="tamanhos">tamanhos:</label>
+        <select id="tamanhos">
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+        </select>
+        <!-- seleção de cor -->
+        <label for="cor">Variedades:</label>
+        <select id="cor">
+            <option>1</option>
+        </select>
+        <!-- botão de compra -->
+        <button type="submit">Comprar</button>
+    </form>
+</div>
+</section>
+<!-- comentario dos clientes -->
+<section class="comentarios">
+    <h3>Comentários dos nossas clientes</h3> 
+    <!-- Título da seção dos comentarios -->
+    <!-- ccomentaro 1 -->
+    <div class="comentario">
+        <!-- foto do cliente 1 -->
+        <img src="./img/1623795287860.jpeg" alt="foto de lee Mina" class="foto-usuario">
+        <!-- nome e comentario do usuario -->
+        <p><strong>Bruno Pinhati123:</strong>Comprei pra minha esposa e ela amou!! vou comprar mais duas pras minhas filhas.</p>
+    </div>
+     <!-- ccomentaro 2 -->
+     <div class="comentario">
+        <!-- foto do cliente 2 -->
+        <img src="./img/download (3).jpeg" alt="foto de Aiko" class="foto-usuario">
+        <!-- nome e comentario do usuario -->
+        <p><strong>maycon Vitoria2:</strong>comprei achando que era original. no segundo dia ela estrgou e n tem como usa, quero meu reenbolso!</p>
+    </div>
+</section>
+</main>
+    <script src="../script.js"></script>
+</body>
+</html>
